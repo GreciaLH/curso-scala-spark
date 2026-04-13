@@ -1,8 +1,3 @@
-# --- Jupyter Notebooks & VS Code ---
-.ipynb_checkpoints/
-.vscode/
-*.log
-
 # --- Spark / Hadoop (Archivos temporales de ejecución) ---
 # Spark genera estos directorios al procesar datos o guardar tablas
 spark-warehouse/
