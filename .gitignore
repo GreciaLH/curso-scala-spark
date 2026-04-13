@@ -1,0 +1,29 @@
+# --- Jupyter Notebooks & VS Code ---
+.ipynb_checkpoints/
+.vscode/
+*.log
+
+# --- Spark / Hadoop (Archivos temporales de ejecución) ---
+# Spark genera estos directorios al procesar datos o guardar tablas
+spark-warehouse/
+metastore_db/
+derby.log
+eventLog/
+.DS_Store
+
+# --- Scala / SBT (Por si en el futuro dejas de usar notebooks) ---
+# Carpetas de compilación
+target/
+project/project/
+project/target/
+.cache
+.history
+
+# --- Archivos de datos pesados ---
+# Evita subir datasets grandes. GitHub no es para almacenar datos, sino código.
+# Si tienes carpetas de datos, puedes ignorar los archivos pesados:
+*.csv
+*.parquet
+*.json
+# Excepto si quieres permitir archivos pequeños de ejemplo (opcional)
+!data/*.csv
