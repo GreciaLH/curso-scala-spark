@@ -1,0 +1,11 @@
+id_apartamento,tipo,habitaciones,metros_cuadrados,tiene_parking,propietario_id,activo
+APT001,Estudio,1,35,false,P01,true
+APT002,Piso,3,85,true,P02,true
+APT003,Estudio,1,30,false,P01,true
+APT004,Piso,2,65,true,P03,true
+APT005,Ático,2,70,true,P04,true
+APT006,Piso,3,90,true,P02,true
+APT007,Estudio,1,28,false,P05,true
+APT008,Estudio,1,32,false,P03,false
+APT009,Piso,2,55,false,P04,true
+APT010,Ático,3,100,true,P05,true
