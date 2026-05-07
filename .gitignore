@@ -16,9 +16,23 @@ project/target/
 
 # --- Archivos de datos pesados ---
 # Evita subir datasets grandes. GitHub no es para almacenar datos, sino código.
-# Si tienes carpetas de datos, puedes ignorar los archivos pesados:
 *.csv
 *.parquet
 *.json
-# Excepto si quieres permitir archivos pequeños de ejemplo (opcional)
-!data/*.csv
+*.avro
+*.orc
+*.zip
+*.gz
+*.tar
+
+# --- Carpetas de datos / salidas de los casos prácticos ---
+# Solo se sube el .ipynb y el README.md de cada caso. Los datasets se generan
+# o descargan al ejecutar el notebook.
+caso-practico-1-retailnova/data/
+caso-practico-2-aerometrics/csv_raw/
+caso-practico-2-aerometrics/salida/
+caso-practico-3-rapidx/json_raw/
+caso-practico-3-rapidx/salida/
+
+# Carpeta de datos genérica en la raíz
+data/
